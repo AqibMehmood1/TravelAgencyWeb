@@ -1,0 +1,44 @@
+<section class="vh-100">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+            <h3 class="mb-5">Sign in</h3>
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+              <div class="form-outline mb-4 position-relative">
+                <i class="bi bi-envelope position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <input
+                  placeholder="Enter Email"
+                  type="email"
+                  id="Username"
+                  class="form-control form-control-lg ps-5"
+                  formControlName="Username"
+                />
+              </div>
+              <div class="form-outline mb-4 position-relative">
+                <i class="bi bi-lock position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                <input
+                  placeholder="Enter Password"
+                  [type]="hidePassword ? 'password' : 'text'"
+                  id="Password"
+                  class="form-control form-control-lg ps-5"
+                  formControlName="Password"
+                />
+                <i style="cursor: pointer;" class="bi bi-eye position-absolute top-50 end-0 translate-middle-y me-2" (click)="togglePasswordVisibility()"></i>
+              </div>
+              <button
+                class="btn btn-primary btn-lg btn-block"
+                type="submit"
+              >
+                Login
+              </button>
+            </form>
+            <!-- <button class="btn btn-danger" (click)="ShowLocalStoredData()">show local data</button> -->
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
