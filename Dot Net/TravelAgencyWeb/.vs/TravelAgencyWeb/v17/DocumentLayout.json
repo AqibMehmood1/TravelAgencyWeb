@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|c:\\users\\master\\source\\repos\\travelagencyweb\\travelagencyweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|solutionrelative:travelagencyweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|c:\\users\\master\\source\\repos\\travelagencyweb\\travelagencyweb\\request models\\usermastervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|solutionrelative:travelagencyweb\\request models\\usermastervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|c:\\users\\master\\source\\repos\\travelagencyweb\\travelagencyweb\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|solutionrelative:travelagencyweb\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|c:\\users\\master\\source\\repos\\travelagencyweb\\travelagencyweb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|solutionrelative:travelagencyweb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|c:\\users\\master\\source\\repos\\travelagencyweb\\travelagencyweb\\request models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|solutionrelative:travelagencyweb\\request models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|c:\\users\\master\\source\\repos\\travelagencyweb\\travelagencyweb\\controllers\\registerusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|solutionrelative:travelagencyweb\\controllers\\registerusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|c:\\users\\master\\source\\repos\\travelagencyweb\\travelagencyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|solutionrelative:travelagencyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|c:\\users\\master\\source\\repos\\travelagencyweb\\travelagencyweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|solutionrelative:travelagencyweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|c:\\users\\master\\source\\repos\\travelagencyweb\\travelagencyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|solutionrelative:travelagencyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|c:\\users\\master\\source\\repos\\travelagencyweb\\travelagencyweb\\migrations\\20240802110924_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|solutionrelative:travelagencyweb\\migrations\\20240802110924_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|c:\\users\\master\\source\\repos\\travelagencyweb\\travelagencyweb\\context\\travelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9102ECA-4765-47F7-BA6E-A8893EE9E9F3}|TravelAgencyWeb\\TravelAgencyWeb.csproj|solutionrelative:travelagencyweb\\context\\travelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserMasterVM.cs",
+              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Request Models\\UserMasterVM.cs",
+              "RelativeDocumentMoniker": "TravelAgencyWeb\\Request Models\\UserMasterVM.cs",
+              "ToolTip": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Request Models\\UserMasterVM.cs",
+              "RelativeToolTip": "TravelAgencyWeb\\Request Models\\UserMasterVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T10:38:31.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterUserController.cs",
+              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Controllers\\RegisterUserController.cs",
+              "RelativeDocumentMoniker": "TravelAgencyWeb\\Controllers\\RegisterUserController.cs",
+              "ToolTip": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Controllers\\RegisterUserController.cs",
+              "RelativeToolTip": "TravelAgencyWeb\\Controllers\\RegisterUserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T05:52:19.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TravelAgencyWeb\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TravelAgencyWeb\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAD4vxoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T12:10:39.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Request Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "TravelAgencyWeb\\Request Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Request Models\\LoginRequest.cs",
+              "RelativeToolTip": "TravelAgencyWeb\\Request Models\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T11:21:09.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "TravelAgencyWeb\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Services\\AuthService.cs",
+              "RelativeToolTip": "TravelAgencyWeb\\Services\\AuthService.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAEIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T11:16:08.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "TravelAgencyWeb\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "TravelAgencyWeb\\Interfaces\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T11:13:12.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240802110924_init.cs",
+              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Migrations\\20240802110924_init.cs",
+              "RelativeDocumentMoniker": "TravelAgencyWeb\\Migrations\\20240802110924_init.cs",
+              "ToolTip": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Migrations\\20240802110924_init.cs",
+              "RelativeToolTip": "TravelAgencyWeb\\Migrations\\20240802110924_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T11:09:25.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Program.cs",
+              "RelativeDocumentMoniker": "TravelAgencyWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Program.cs",
+              "RelativeToolTip": "TravelAgencyWeb\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T11:07:33.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "TravelAgencyWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\appsettings.json",
+              "RelativeToolTip": "TravelAgencyWeb\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-02T11:05:47.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TravelAgencyWeb\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Models\\User.cs",
+              "RelativeToolTip": "TravelAgencyWeb\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:41:48.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TravelContext.cs",
+              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Context\\TravelContext.cs",
+              "RelativeDocumentMoniker": "TravelAgencyWeb\\Context\\TravelContext.cs",
+              "ToolTip": "C:\\Users\\master\\source\\repos\\TravelAgencyWeb\\TravelAgencyWeb\\Context\\TravelContext.cs",
+              "RelativeToolTip": "TravelAgencyWeb\\Context\\TravelContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:38:33.062Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
