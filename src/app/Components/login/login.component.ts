@@ -4,6 +4,8 @@ import { FormGroup,FormBuilder,Validators } from '@angular/forms';
 import { AuthService,LoginRequest } from '../../Services/auth.service';
 import { HttpClientModule } from '@angular/common/http';
 import { Router } from '@angular/router';
+import Swal from 'sweetalert2';
+
 @Component({
   selector: 'app-login',
   standalone: true,
@@ -48,12 +50,24 @@ ngOnInit(): void {
 
         // debugger
         console.log('Logged in successfully ');
+        Swal.fire({
+          title: 'Login Successful',
+          text: 'Welcome to the Dashboard!',
+          icon: 'success',
+          confirmButtonText: 'OK'
+        });
         // Router.navigate(['/deshboard']);
-        this.Router.navigate(['/deshboard']);
+        this.Router.navigate(['/main']);
         console.log(response);
 
       },
       error => {
+        Swal.fire({
+          title: 'Login Failed',
+          text: "Some errors occurse",
+          icon: 'error',
+          confirmButtonText: 'OK'
+        });
         console.error('Error:', error);
       }
     );
@@ -66,6 +80,13 @@ ngOnInit(): void {
     // console.log('Name :',this.authService.getName());
     // console.log('Role :',this.authService.getroleDetails());
     // console.log('UserName :',this.authService.getuserName());
-    console.log('IsLogged in :',this.authService.isLoggedIn());
+    // console.log('IsLogged in :',this.authService.isLoggedIn());
+    console.log('Logged in successfully ');
+    Swal.fire({
+      title: 'Login Successful',
+      text: 'Welcome to the Dashboard!',
+      icon: 'success',
+      confirmButtonText: 'OK'
+    });
   }
 }

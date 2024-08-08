@@ -1,0 +1,60 @@
+<div class="container-fluid p-0 m-0">
+  <div class="row p-0 m-0">
+    <div class="col-auto p-0 m-0">
+      <!-- SideBar Strat -->
+      <div class=" main" [ngClass]="{'toggled': isToggled}">
+        <nav id="sidebar" class="bg-light border-right">
+          <div class="sidebar-header d-flex justify-content-between align-items-center p-3">
+            <h3 class="m-0 Dashboard">Dashboard</h3>
+            <button class="btn btn-outline-secondary" (click)="toggleSidebar()">
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+          <ul class="list-unstyled components">
+            <li [ngClass]="{'active': activeMenu === 'dashbourd'}">
+              <a href="#homeSubmenu" data-bs-toggle="collapse" aria-expanded="false"  (click)="setActiveMenu('dashbourd')">
+                <i class="bi bi-speedometer2"></i> <span>Dashbourd</span> 
+              </a>
+              <!-- <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                  <a href="#">Home 1</a>
+                </li>
+                <li>
+                  <a href="#">Home 2</a>
+                </li>
+                <li>
+                  <a href="#">Home 3</a>
+                </li> 
+              </ul> -->
+            </li>
+            <li [ngClass]="{'active': activeMenu === 'services'}">
+              <a href="#servicesSubmenu" data-bs-toggle="collapse" aria-expanded="false" (click)="setActiveMenu('services')">
+                <i class="bi bi-gear"></i> <span>My Services</span>
+              </a>
+            </li>
+            <li [ngClass]="{'active': activeMenu === 'team'}">
+              <a href="#contactSubmenu" data-bs-toggle="collapse" aria-expanded="false" (click)="setActiveMenu('team')">
+                <i class="bi bi-people-fill"></i> <span>Team</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      
+        <!-- <div id="content" class="p-4">
+        </div> -->
+      </div>
+       <!-- SideBar end -->
+      
+    </div>
+    <div class="col p-0 m-0">
+      <div><app-navbar></app-navbar></div>
+      <div *ngIf="activeMenu === 'dashbourd'">
+        <app-dashbourd></app-dashbourd>
+      </div>
+      <div *ngIf="activeMenu === 'team'">
+        <app-team></app-team>
+      </div>
+    </div>
+    
+  </div>
+</div>

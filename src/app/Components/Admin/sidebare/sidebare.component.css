@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#sidebar {
+  height: 100vh; /* Full viewport height */
+  min-width: 280px;
+  max-width: 280px;
+  transition: all 0.3s;
+}
+.Dashboard{
+  color: #fff;
+}
+#sidebar .sidebar-header {
+  padding: 1rem;
+  background: #0a2763;
+  color: white;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  background: #13357B;
+  color: #fff;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  background: #08204e;
+  color: #fff;
+}
+
+#sidebar ul li ul {
+  padding-left: 30px;
+}
+
+.toggled #sidebar {
+  min-width: 80px;
+  max-width: 80px;
+  text-align: center;
+}
+
+.toggled #sidebar ul li a {
+  text-align: center;
+  padding: 10px;
+}
+
+.toggled #sidebar .sidebar-header h3,
+.toggled #sidebar ul li a span {
+  display: none;
+}
+
+.toggled #sidebar .sidebar-header .btn {
+  margin-left: auto;
+}
+
+#content {
+  flex-grow: 1;
+  padding: 20px;
+}

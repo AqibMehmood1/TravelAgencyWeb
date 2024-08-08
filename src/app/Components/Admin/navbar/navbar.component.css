@@ -1,0 +1,20 @@
+/* app.component.css */
+.spacer {
+    flex: 1 1 auto;
+  }
+  .custom-navbar {
+    background-color: #0a2763 !important;
+    color: white !important;
+    height: 70px;
+  }
+  
+  .custom-navbar .mat-toolbar-row a {
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+  }
+  
+  .custom-navbar .mat-toolbar-row a:hover {
+    text-decoration: underline;
+  }
+  

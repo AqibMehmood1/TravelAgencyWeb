@@ -1,0 +1,73 @@
+<div class="container-fluid">
+    <div class="p-4" style="text-align: right;">
+        <button class="btn btn-success" (click)="OnCreateAction()">Add New Product</button>
+      </div>
+      
+      <div class="modal" tabindex="-1" role="dialog" [ngClass]="{'show': showModal, 'd-block': showModal}">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">{{ savebtn === 'Create' ? 'Add New Product' : 'Edit Product' }}</h5>
+              <button type="button" class="close" (click)="closeModal()" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form [formGroup]="team" (ngSubmit)="onFormSubmite()">
+                <div class="form-group">
+                  <label for="Name">Name</label>
+                  <input type="text" class="form-control" id="Name" formControlName="Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="Email" formControlName="Email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="Password">Password</label>
+                    <div class="form-outline mb-4 position-relative">
+                      <i class="bi bi-lock position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                      <input
+                        placeholder="Enter Password"
+                        [type]="hidePassword ? 'password' : 'text'"
+                        id="Password"
+                        class="form-control form-control-lg ps-5"
+                        formControlName="Password"
+                      />
+                      <i style="cursor: pointer;" class="bi bi-eye position-absolute top-50 end-0 translate-middle-y me-2" (click)="togglePasswordVisibility()"></i>
+                    </div>
+                  </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-primary">{{ savebtn }}</button>
+                  <button type="button" class="btn btn-secondary" (click)="closeModal()">Close</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">id</th>
+            <td>abc</td>
+            <td>emal</td>
+            <td>
+              <i class="bi bi-pencil p-2 edit" (click)="OnEditAction(7)"></i>
+              <i class="bi bi-trash p-2 delete" (click)="deleteProducts(1)"></i>
+              <!-- <button class="btn m-1" (click)="OnEditAction(7)">Edit</button>
+              <button class="btn btn-danger m-1" (click)="deleteProducts(1)">Delete</button> -->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+</div>
